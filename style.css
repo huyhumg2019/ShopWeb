@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
 }
+
 .right-menu li{
  display: inline-block;/*cho menu nam ngang*/
  margin-top: 30px !important;
@@ -11,6 +12,150 @@
     margin-right: 10px;
     cursor: pointer; /*chi con tro vao hien ban tay */
 }
-p{
-    color: blue;
+.navbar-brand img{
+    width: 110px;
+}
+.navbar-brand{
+    left: 50%;
+    position: absolute;
+    transform: translateX(-50%);/*can truc x ra giua 50%*/
+   
+}
+.header{
+    background :#f5f6ac;
+}
+.navbar{
+    padding: 0 35px !important;
+}
+.navbar-toggler{
+    border: none !important;
+    outline: none !important;
+    padding: 0 !important;
+    margin-top: 5px;
+}
+.navbar-toggler .fa{
+    font-size: 30px;
+    cursor: pointer;
+}
+.banner-img{
+    margin: 50px 110px;
+    width: 60%
+}
+.banner-img img {
+    width: 100%;
+    margin-bottom: -80px;
+}
+.banner{
+    position: relative;
+}
+.banner-title{
+    position: absolute;
+    left: 50%;
+    top: 20%;
+   
+}
+.banner-title h1{
+    font-size: 55px;
+    background: rgba(255, 252, 252, 0.75);
+   
+    line-height: 70px;
+    padding: 0px 10px 0 10px;
+}
+.fashion-trends{
+ padding: 50px 0;
+}
+.fashion-box{
+    margin: 50px 0;
+}
+.title-style h1 {
+    padding: 30px 0 ;
+}
+.title-style {
+    margin: 0 auto 80px;
+    height: 120px;
+    width: 80%;
+    max-width: 700px;
+    background: #fff;
+    position: relative;
+    box-shadow: 0 4px 5px 0 rgba(0, 0, 50, 0.5);
+}
+.title-style::after {
+    content: '';/* noi dung */
+    height: 100px;
+    width: 150px;
+    background-color: #f992a6;
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    z-index: -1;/*cho hien xuong duoi */
+    
+}
+.title-style::before {
+    content: '';/* noi dung */
+    height: 100px;
+    width: 150px;
+    background-color: #f992a6;
+    position: absolute;
+    bottom: -10px;
+    right: -10px;
+    z-index: -1;/*cho hien xuong duoi */
+    
+}
+.trending-img{
+    position: relative;
+    margin-bottom: 15px;
+}
+.trending-img img {
+    width: 100%;
+}
+.btn-buy{
+    width: 100px;
+    padding: 10px 0 ;
+    outline: none !important;
+    border: 0;
+    border-radius: 2px;
+    position: absolute;
+    background: #fff;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%,0);
+    transition: .6s;/*chuyen dong cua btton*/
+    opacity: 0; /*an nut */
+}
+.trending-img:hover .btn-buy{
+    transform: translate(-50%,50%);
+    bottom: 50%;
+    opacity: 1;/*hien nut */
+}
+/* .overlay{
+    height: 0;
+    width: 100%;
+    background: #333;
+    position: absolute;
+    top: 0;
+    opacity: 0;
+    transition: .5s;
+}
+.trending-img:hover .overlay{
+    
+    height: 100%;
+    opacity: .5;
+} */
+.offer{
+    
+}
+.row{
+    margin: initial !important;
+}
+.subcribe{
+    max-width: 500px;
+    margin-top: 80px;
+    padding: 60px;
+    background: #ffffff8c;
+    margin-bottom: 20px;
+}
+.subcribe a {
+    width: 100px;
+    display: block;
+    color: 
 }
