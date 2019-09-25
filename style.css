@@ -2,7 +2,11 @@
     margin: 0;
     padding: 0;
 }
-
+.login{
+    font-size: 22px;
+    margin-left: 10px;
+    cursor: pointer;
+}
 .right-menu li{
  display: inline-block;/*cho menu nam ngang*/
  margin-top: 30px !important;
